@@ -6,7 +6,7 @@ def cb(message):
     rospy.loginfo(message.data/3.)
 
 if __name__ == '__main__':
-    rospy.init_node('halve')
+    rospy.init_node('rb3')
     sub = rospy.Subscriber('twice', Float32, cb)
     rospy.spin()
 
