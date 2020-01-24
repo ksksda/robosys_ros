@@ -1,2 +1,4 @@
 # robosys_ros
 授業内で作成したものを改変し、2倍した後の値を1/3倍してfloatでログに表示するようにした。
+publisherとsubscriberを同居させた。
+単なるpublisherとして働くcount.pyに連動してすべてのノードが動作するため、count.pyを起動した瞬間に動作が開始される。
